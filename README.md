@@ -13,7 +13,7 @@
 ```pipenv install django```
 - [ ] Install the library for connecting Django to PostgreSQL:
 
-```pipenv install psychopg2-binary```
+```pipenv install psycopg2-binary```
 - [ ] Open up the project in your favorite text editor
 - [ ] Start our Django project (creates a project in the current directory)!
 
