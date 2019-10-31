@@ -111,7 +111,7 @@ NOTE: Every time you make changes to your models, run ```makemigrations``` again
 from django.contrib import admin
 from .models import Example
 
-admin.site.register(Example
+admin.site.register(Example)
 ```
 
 - [ ] Then, navigate to localhost:8000/admin and login using the credentials you added in step 2.
