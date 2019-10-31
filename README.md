@@ -72,7 +72,7 @@ To include the app we generated, add the following to the last line of ```INSTAL
 
 ## Models
 
-To create an example python class that inherits from the Django built in ```models.Model``` class:
+To create an example python class that inherits from the Django built in ```models.Model``` class, add the following to myapp/models.py:
 
 ```
 class Example(models.Model):
