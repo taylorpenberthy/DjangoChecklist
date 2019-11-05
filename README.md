@@ -35,13 +35,13 @@ NOTE: If django-admin doesn't work, you can replace it with ```python3 manage.py
 ```$ psql -d postgres```
 - [ ] Create a database:
 ```
-> CREATE DATABASE somedb;
+> CREATE DATABASE myapp;
 > CREATE USER myUser WITH PASSWORD 'user';
 > GRANT ALL PRIVILEGES ON DATABASE somedb TO myUser;
 > \q
 ```
 OR Create via settings.sql
-``` CREATE DATABASE somedb;
+``` CREATE DATABASE myapp;
 CREATE USER myUser WITH PASSWORD 'user';
 GRANT ALL PRIVILEGES ON DATABASE somedb TO myUser;
 ```
